@@ -48,7 +48,7 @@
     "@ant-design/icons": "^5.2.6",
     "@ant-design/plots": "^1.2.2",
     "@ant-design/pro-components": "^2.3.35",
-    "@ant-design/pro-layout": "^7.17.6",
+    "@ant-design/pro-layout": "^7.19.8",
     "@ant-design/pro-table": "^3.12.14",
     "@stripe/stripe-js": "^1.42.1",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
