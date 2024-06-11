@@ -34,19 +34,7 @@ const Footer: React.FC = () => {
           {
             key: 'HarrisburgHydroponics',
             title: `HarrisburgHydroponics 3.0.1-beta`,
-            href: 'https://dgtsapp.com',
-            blankTarget: true,
-          },
-          {
-            key: 'github',
-            title: <GithubOutlined />,
-            href: 'https://github.com/mxchinegod/HarrisburgHydroponics',
-            blankTarget: true,
-          },
-          {
-            key: 'always use on landscape 📱',
-            title: 'always use on landscape 📱',
-            href: 'https://detectmybrowser.com',
+            href: 'https://harrisburghydroponics.com',
             blankTarget: true,
           },
         ]}
@@ -64,18 +52,6 @@ const Footer: React.FC = () => {
           marginTop: -15,
         }}
       >
-        <Tag
-          icon={
-            healthStatus.type == 'success' ? (
-              <CheckCircleTwoTone twoToneColor="#52c41a" />
-            ) : (
-              <CloseCircleTwoTone twoToneColor="#eb2f96" />
-            )
-          }
-          color={healthStatus.type == 'success' ? 'success' : 'error'}
-        >
-          {healthStatus.type == 'success' ? 'main API online' : 'main API offline'}
-        </Tag>
       </Space>
     </>
   );
