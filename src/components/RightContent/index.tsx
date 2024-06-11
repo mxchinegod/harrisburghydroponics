@@ -226,7 +226,7 @@ const GlobalHeaderRight: React.FC = () => {
       /> */}
       <span
         onClick={() => {
-          window.open('https://github.com/DylanAlloy/HarrisburgHydroponics/issues');
+          window.open('https://github.com/mxchinegod/HarrisburgHydroponics/issues');
         }}
       >
         <QuestionCircleOutlined />

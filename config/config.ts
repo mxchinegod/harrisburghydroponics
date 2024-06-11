@@ -10,7 +10,7 @@ const { REACT_APP_ENV } = process.env;
 /* A function that returns a configuration object. */
 export default defineConfig({
   hash: true,
-  favicons: ['/HarrisburgHydroponics.gif', '/favico.png', 'favico.ico'],
+  favicons: ['/HarrisburgHydroponics.png', 'favicon.ico'],
   routes,
   theme: {
     'root-entry-name': 'variable',

@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
           {
             key: 'github',
             title: <GithubOutlined />,
-            href: 'https://github.com/DylanAlloy/HarrisburgHydroponics',
+            href: 'https://github.com/mxchinegod/HarrisburgHydroponics',
             blankTarget: true,
           },
           {

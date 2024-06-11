@@ -62,7 +62,7 @@ const Welcome: React.FC = () => {
           </p>
           <div className="site-card-wrapper">
             <Row gutter={24} style={{ maxHeight: '750px', overflow: 'auto' }}>
-             
+             Hello
             </Row>
           </div>
         </div>

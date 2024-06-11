@@ -8,7 +8,7 @@ const Settings: LayoutSettings & {
   navTheme: 'light',
   colorPrimary: '#6AA84F',
   layout: 'top',
-  contentWidth: 'Fluid',
+  contentWidth: 'Fixed',
   fixedHeader: true,
   fixSiderbar: true,
   colorWeak: false,
