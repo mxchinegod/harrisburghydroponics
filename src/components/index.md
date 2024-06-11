@@ -66,7 +66,7 @@ export default () => {
       placeholder="站内搜索"
       defaultValue="umi ui"
       options={[
-        { label: 'HarrisburgHydroponics AI', value: 'HarrisburgHydroponics AI' },
+        { label: 'HarrisburgHydroponics', value: 'HarrisburgHydroponics' },
         {
           label: 'HarrisburgHydroponics',
           value: 'HarrisburgHydroponics',

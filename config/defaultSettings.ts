@@ -6,16 +6,16 @@ const Settings: LayoutSettings & {
   logo?: string;
 } = {
   navTheme: 'light',
-  colorPrimary: '#722ED1',
+  colorPrimary: '#6AA84F',
   layout: 'top',
   contentWidth: 'Fluid',
   fixedHeader: true,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'HarrisburgHydroponics AI',
+  title: 'HarrisburgHydroponics',
   splitMenus: false,
   pwa: false,
-  logo: '/HarrisburgHydroponics2.gif',
+  logo: '/HarrisburgHydroponics.png',
   iconfontUrl: '',
 };
 

@@ -35,7 +35,7 @@ export async function getInitialState(): Promise<{
       return msg.data;
     } catch (error) {
       console.log(error);
-      history.push(loginPath[0]);
+      history.push('/welcome');
     }
     return undefined;
   };
@@ -60,11 +60,9 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
       const dateNow = new Date();
 
       if (!activeToken) {
-        // No token, redirect to login
-        history.push(loginPath[0]);
+        history.push('/welcome');
       } else if (parseJwt(activeToken).exp < dateNow.getTime() / 1000) {
-        // expired, redirect to login
-        history.push(loginPath[0]);
+        history.push('/welcome');
       }
     },
     layoutBgImgList: [
@@ -100,7 +98,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
       return (
         <>
           {children}
-          {location?.pathname?.includes('/login') && (
+          {location?.pathname?.includes('/welcome') && (
             <SettingDrawer
               disableUrlParams
               enableDarkTheme

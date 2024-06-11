@@ -29,7 +29,7 @@ const Admin: React.FC = () => {
         />
         <Typography.Title level={2} style={{ textAlign: 'center' }}>
           {/* eslint-disable-next-line react/no-unescaped-entities */}
-          <SmileTwoTone /> HarrisburgHydroponics AI <HeartTwoTone twoToneColor="#eb2f96" />
+          <SmileTwoTone /> HarrisburgHydroponics <HeartTwoTone twoToneColor="#eb2f96" />
           &apos;s You
         </Typography.Title>
       </Card>

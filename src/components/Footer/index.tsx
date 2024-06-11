@@ -32,8 +32,8 @@ const Footer: React.FC = () => {
         copyright={`${currentYear} ${defaultMessage}`}
         links={[
           {
-            key: 'HarrisburgHydroponics AI',
-            title: `HarrisburgHydroponics AI 3.0.1-beta`,
+            key: 'HarrisburgHydroponics',
+            title: `HarrisburgHydroponics 3.0.1-beta`,
             href: 'https://dgtsapp.com',
             blankTarget: true,
           },

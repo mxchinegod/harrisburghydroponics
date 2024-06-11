@@ -16,41 +16,6 @@ export default [
     component: './Welcome',
   },
   {
-    path: '/admin',
-    name: 'admin',
-    icon: 'crown',
-    access: 'canAdmin',
-    routes: [
-      {
-        path: '/admin',
-        redirect: '/admin/users',
-      },
-      {
-        path: '/admin/users',
-        name: 'User Management',
-        component: './Admin/Users',
-      },
-    ],
-  },
-  // {
-  //   path: '/tools',
-  //   name: 'Alternative Data',
-  //   icon: 'database',
-  //   access: 'paid',
-  //   routes: [
-  //     {
-  //       path: '/tools',
-  //       redirect: '/tools/altdata',
-  //     },
-
-  //     {
-  //       path: '/tools/altdata/reddit',
-  //       name: 'Reddit',
-  //       component: './Tools/AltData/Reddit',
-  //     },
-  //   ],
-  // },
-  {
     path: '/',
     redirect: '/welcome',
   },

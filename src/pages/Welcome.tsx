@@ -26,9 +26,6 @@ import {
 } from '@ant-design/icons';
 const { Search } = Input;
 const { Meta } = Card;
-import { everything } from '@/services/altdata/newsapi';
-import { schedule } from '@/services/altdata/reserve';
-import { summarize } from '@/services/mldata/mlapi';
 import moment from 'moment';
 moment.locale('en');
 import dayjs from 'dayjs';
@@ -133,33 +130,11 @@ const Welcome: React.FC = () => {
    */
   const queryEverything = (query: any) => {
     setLoading(true);
-    everything({ data: { query: query } }).then((response: any) => {
-      const workingData = response.data;
-      if (workingData.articles && workingData.articles.length > 0) {
-        setNews(workingData.articles);
-        setSummary('');
-        let allNewsContent = '';
-        workingData.articles.forEach(
-          (article: { description: any; urlToImage: any; content: string; source: string }) => {
-            if (
-              article.description &&
-              article.description.length > 150 &&
-              article.urlToImage &&
-              article.source.name != 'Business Wire'
-            ) {
-              allNewsContent += article.content;
-            }
-          },
-        );
-        summarizeAll(allNewsContent);
-        setLoading(false);
-      }
-    });
+  
   };
 
   useLayoutEffect(() => {
     queryEverything('stock market');
-    fedSchedule();
   }, []);
   return (
     <PageContainer>

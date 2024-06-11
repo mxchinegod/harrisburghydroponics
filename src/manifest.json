@@ -1,6 +1,6 @@
 {
-  "name": "HarrisburgHydroponics AI",
-  "short_name": "HarrisburgHydroponics AI",
+  "name": "HarrisburgHydroponics",
+  "short_name": "HarrisburgHydroponics",
   "display": "standalone",
   "start_url": "./?utm_source=homescreen",
   "theme_color": "#002140",
